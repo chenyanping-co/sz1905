@@ -1,0 +1,130 @@
+
+/* middle */
+#middle{
+    position: absolute;
+    top: 1.7rem;
+    bottom: 1rem;
+    width: 100%;
+    overflow: auto;
+}
+/* banner */
+#banner{
+    height: 6.88rem;
+    background-color:#000;
+}
+#banner .padd{
+    height: .72rem;
+}
+#banner .Img{
+    height: 6.16rem;
+    width: 100%;
+    position: relative;
+}
+#banner img{
+    width: 5.62rem;
+    height:6.12rem ;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* nav */
+#nav{
+    height: 4.2rem;
+    width: 100%;
+    background: url("https://haitao.nosdn1.127.net/50a36d69-baf5-4346-8188-0e83274fcd3bT1906261126_960_538.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav>ul>li{
+    height: 1.72rem;
+    width: 1.72rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pos{
+    display: block;
+    position: absolute;
+}
+/* content */
+#content .bgI{
+    height: 1rem;
+    width: 100%;
+    background: url("https://haitao.nosdn1.127.net/102dc8bb-869b-4e0c-adc8-252d9b70da4fT1903041729_960_130.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+#content .title{
+    overflow: hidden;
+    padding: 0 .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#content ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+    overflow-y: hidden;
+    padding-bottom: .13rem;
+    background-color: rgb(249, 249, 249);
+}
+#content ul>li{
+    position: relative;
+    width: 3.333rem;
+    margin-right: .1rem;
+    padding-bottom: .13rem;
+}
+#content ul>li .Image{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("https://pop.nosdn.127.net/012e5272-19d3-4c7a-907e-11cd20ece9d1") no-repeat center center;
+    background-size: 100% 100%;
+}
+#content ul>li .txt{
+    padding: 0 .2rem;
+}
+#content ul>li .txt a{
+    font-size: .24rem;
+    display:block;
+    height: .58rem;
+    overflow: hidden;
+}
+#content ul>li .txt .newpri{
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(227, 2, 2);
+    font-weight: bold;
+    font-size: .28rem;
+}
+#content ul>li .txt .oldpri{
+    text-decoration: line-through;
+    color: #bcbcbc;
+}
+#content ul>li .txt .rush{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: .1rem;
+    right: .1rem;
+    background-color: rgb(227, 2, 2);
+}
+#content ul>li .txt .rush p{
+    width: 100%;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    font-size: .4rem;
+    font-weight: bold;
+    color: #fff;
+}

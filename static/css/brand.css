@@ -1,0 +1,56 @@
+#brand-container{
+    width: 100%;
+    height: 100%;
+}
+
+/* content */
+#content{
+    position: absolute;
+    top: .9rem;
+    bottom: 1rem;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+/* banner */
+#banner{
+    padding-bottom: .32rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+#banner .bgI{
+    width: 100%;
+    height: 5.36rem;
+    background: url("https://haitao.nosdn2.127.net/9zViP0407rHb7F9hh7fET1806271728_960_560.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+#glist .title{
+    padding-bottom: .32rem;
+}
+#glist .title .bpic{
+    width: 100%;
+    height: 1.72rem;
+    background: url("https://haitao.nos.netease.com/CP3rS7aJNTrm3XOQxinT1806271924_960_221.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+#glist .glink ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+#glist .glink ul li{
+    width: 48%;
+    height: 4.88rem;
+    background: url("https://haitao.nosdn2.127.net/874b2ec4-9d0e-4c6a-ba61-2ceee2b4145bT1903071546_480_652.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+#glist .glink ul li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

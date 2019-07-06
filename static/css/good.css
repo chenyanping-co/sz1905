@@ -1,0 +1,113 @@
+#content{
+    position: absolute;
+    top: .9rem;
+    bottom: 1rem;
+    width: 100%;
+    overflow: auto;
+}
+/* banner */
+#banner{
+    height: 6.88rem;
+    width: 100%;
+    background: url("https://haitao.nos.netease.com/62a3c4ef-6c78-4306-b5a7-d5b67973c1fcT1906121446_750_620.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+#banner .padd{
+    height: .72rem;
+}
+#banner .Img{
+    height: 5rem;
+    width: 3.84rem;
+    background: url("https://haitao.nos.netease.com/dab6a30a-1d7b-4269-a32b-773350149b56T19070311010_645_840.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#slider ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y:hidden;
+}
+#slider ul li{
+    width: 2.5rem;
+    margin-right: .1rem;
+}
+#slider ul li .bgI{
+    width: 1.9rem;
+    height: 1.9rem;
+    background: url("http://pop.nosdn.127.net/c71bb796-0154-48d8-8167-5c290467b712") no-repeat center center;
+    background-size: 100% 100%;
+}
+.ellipsis{
+    width: 100%;
+    height: .58rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-bottom: .1rem;
+}
+#goodscol ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 1px solid #e5e5e5;
+    padding: .30rem;
+    padding-left: 0;
+}
+#goodscol ul li .left{
+    width:2.6rem;
+    height: 1.68rem;
+    background: url("https://haitao.nosdn2.127.net/20190628154403b2f5fa529ac04a9988605d05e04a1f8b.jpeg") no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: .1rem;
+    margin-left: .3rem;
+}
+#goodscol ul li .right{
+    height: 1.68rem;
+    flex: 1;
+    padding-left: .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#goodscol ul li .right .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#goodscol ul li .right .info .txt{
+    width: 70%;
+    padding-left: .6rem;
+    background: url("http://haitao.nos.netease.com/c0e1fc99e9c84e58af3ec18bd6433d05.jpeg") no-repeat left top;
+    background-size:contain;
+    height: .50rem;
+    line-height: .5rem;
+}
+#goodscol ul li .right .info .icon{
+    width: 30%;
+    padding-left: .6rem;
+    height: .25rem;
+    line-height: .25rem;
+    background: url("https://haitao.nos.netease.com/707e5ff2-548a-4c13-a600-818a20b18cae_36_36.png") no-repeat .2rem 0;
+    background-size: contain;
+}
+.ellipsisone{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
