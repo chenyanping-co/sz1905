@@ -1,0 +1,37 @@
+export default {
+    path:"/events",
+    component:()=>import("views/activity"),
+    name:"activity",
+    children:[
+        {
+            path:"all",
+            component:()=>import("components/Hot"),
+            name:'all'
+        },
+        {
+            path:"beijing",
+            component:()=>import("components/BeiJing"),
+            name:'beijing'
+        },
+        {
+            path:"shanghai",
+            component:()=>import("components/ShangHai"),
+            name:'shanghai'
+        },
+        {
+            path:"guangzhou",
+            component:()=>import("components/GuangZhou"),
+            name:'guangzhou'
+        },
+        {
+            path:"shenzhen",
+            component:()=>import("components/ShenZhen"),
+            name:'shenzhen'
+        },
+        {
+            path:"hangzhou",
+            component:()=>import("components/HangZhou"),
+            name:'hangzhou'
+        }
+    ]
+}
